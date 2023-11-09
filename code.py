@@ -22,7 +22,6 @@ def draw():
       n=1,
       size="1024x1024"
     )
-    # Eğer metin etiketi önceden oluşturulmuşsa, sadece metni güncelle
     if text_label is not None:
       text_label.configure(text="İstenen çizim: " + user_input + "\nİngilizcesi: " + example.text )
     else:
