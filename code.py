@@ -6,7 +6,7 @@ from io import BytesIO
 import tkinter as tk
 from tkinter import PhotoImage ,simpledialog, messagebox
 
-openai.api_key = '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'
+openai.api_key = 'key' # Openai api key
 translator = Translator()
 
 def draw():
